@@ -42,6 +42,8 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.runtime.ktx)
 
     //tambah implementasi library compose di build.gradle
     implementation(libs.lifecycle.viewmodel.compose)
